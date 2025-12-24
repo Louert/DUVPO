@@ -1,0 +1,21 @@
+---
+# Настройки для pandoc-crossref - приближены к стилю PDF
+figureTitle: "Рис. "
+tableTitle: "Таблица "
+figPrefix: ["рис.", "рис."]
+tblPrefix: ["табл.", "табл."]
+figLabels: arabic
+tblLabels: arabic
+linkReferences: true
+numberDelimiter: ". "
+
+# Настройки библиографии - числовой формат как в PDF
+reference-section-title: "Литература"
+link-citations: true
+
+# CSL стиль для числового цитирования (ГОСТ)
+csl: "gost-r-7-0-5-2008-numeric.csl"
+
+# Языковые настройки
+lang: "ru"
+---
