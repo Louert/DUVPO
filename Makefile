@@ -1,7 +1,6 @@
 .PHONY: all tools check build clean
 
 # -------- Пути --------
-ROOT_DIR := D:\DUVPO\DUVPO
 MARKDOWN_DIR := MarkDown
 SECTIONS_DIR := $(MARKDOWN_DIR)\sections
 
@@ -9,7 +8,7 @@ OUTPUT := documentation.docx
 REFERENCE_DOC := reference.docx
 
 # -------- Pandoc --------
-PANDOC_DIR := $(ROOT_DIR)\pandoc
+PANDOC_DIR := pandoc
 PANDOC := $(PANDOC_DIR)\pandoc.exe
 CROSSREF := $(PANDOC_DIR)\pandoc-crossref.exe
 SEVENZIP := $(PANDOC_DIR)\7za.exe
